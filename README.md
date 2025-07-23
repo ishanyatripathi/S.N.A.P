@@ -1,3 +1,4 @@
+<img width="1024" height="1024" alt="snap" src="https://github.com/user-attachments/assets/c5406b3f-6284-4968-87b6-66099e622118" />
 S.N.A.P. : Slide Navigation via Aerial Palms
 
 S.N.A.P. is a gesture-controlled presentation tool that lets you navigate slides with just your hands — no remotes, no keyboards, no touch. Using real-time hand tracking powered by MediaPipe, it recognizes specific gestures like snapping and open palms to move forward, backward, or exit slides intuitively.
