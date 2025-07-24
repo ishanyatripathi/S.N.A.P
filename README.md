@@ -1,61 +1,40 @@
-<img width="1024" height="1024" alt="snap" src="https://github.com/user-attachments/assets/c5406b3f-6284-4968-87b6-66099e622118" />
-S.N.A.P. : Slide Navigation via Aerial Palms
+<img width="922" height="368" alt="image" src="https://github.com/user-attachments/assets/549216eb-174b-48c5-bf71-7080e144d133" />
 
-S.N.A.P. is a gesture-controlled presentation tool that lets you navigate slides with just your hands — no remotes, no keyboards, no touch. Using real-time hand tracking powered by MediaPipe, it recognizes specific gestures like snapping and open palms to move forward, backward, or exit slides intuitively.
 
--------------------------------------
-✨ Features
+S.N.A.P. is a futuristic, gesture-based presentation tool that enables contactless slide navigation using only your hands. No remotes, no keyboards—just natural, intuitive gestures tracked through your webcam.
 
-- 👉 Snap with your RIGHT hand to go to the NEXT slide
-- 👈 Snap with your LEFT hand to go to the PREVIOUS slide
-- ✋ Show BOTH OPEN PALMS to CLOSE the presentation
-- 🧠 Gesture buffering and cooldown system to avoid accidental triggers
-- 🖐️ Real-time hand tracking using MediaPipe
-- 🛠️ Simple setup with OpenCV + PyAutoGUI
+FEATURES
+• Snap with your RIGHT hand → Next slide
+• Snap with your LEFT hand  → Previous slide
+• Show BOTH OPEN PALMS      → Exit presentation
+• Real-time hand tracking via MediaPipe
+• Automated keystrokes using PyAutoGUI
+• Cooldown logic prevents gesture misfires
 
--------------------------------------
-🛠 Requirements
+REQUIREMENTS
+• Python 3.7+
+• OpenCV
+• MediaPipe
+• PyAutoGUI
 
-- Python 3.7+
-- OpenCV
-- MediaPipe
-- PyAutoGUI
-
-Install dependencies:
+Install dependencies with:
 pip install opencv-python mediapipe pyautogui
 
--------------------------------------
-🚀 How to Run
+USAGE
+1. Clone the repository:
+   git clone https://github.com/ishanyatripathi/S.N.A.P
+2. Run the script:
+   python SNAP.py
+3. Ensure your webcam is active and gestures are clearly visible.
+4. Press 'q' to quit manually at any time.
 
-python snap.py
+ABOUT
+S.N.A.P. (Slide Navigation via Aerial Palms) lets you navigate presentations in a smarter, more natural way. Whether you're on stage, teaching, or just showing slides, your hands are all you need.
 
-- Ensure your webcam is on
-- Use gestures in front of the camera to control your slides
-- Press 'q' to quit manually
+AUTHOR
+Created by Ishanya Tripathi  
+GitHub: https://github.com/ishanyatripathi/S.N.A.P  
+LinkedIn: https://linkedin.com/in/ishanya-tripathi-48a869293
 
--------------------------------------
-💡 Gestures Guide
-
-Gesture             -> Action
--------------------------------------
-Right hand snap     -> Next slide
-Left hand snap      -> Previous slide
-Both palms open     -> Exit presentation
-
--------------------------------------
-🔧 Customization Ideas
-
-- Add gestures for starting presentation or toggling black screen
-- Add on-screen text feedback
-- Link with PowerPoint, PDF viewers, or OBS
-
--------------------------------------
-🧠 Why S.N.A.P.?
-
-S.N.A.P. (Slide Navigation via Aerial Palms) lets you interact with your slides naturally.
-Perfect for tech talks, smart classrooms, or futuristic hands-free control.
-
--------------------------------------
-📄 License
-
-MIT License
+LICENSE
+This project is licensed under the MIT License.
